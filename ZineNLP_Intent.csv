@@ -1,0 +1,108 @@
+Category,Sub,Question,Intent,Answer
+1,0,Which side of the road should one walk,WalkOnRight,Always walk on the right hand side of the road
+2,0,What does the green signal mean to the pedestrian on the zebra crossing,GreenForPedestrian,It means they can cross the road
+3,0,What does the red signal mean to the pedestrian on the zebra crossing,RedForPedestrian,It means to stop and wait for green signal
+4,0,What should one wear while cycling in the dark,WearCyclingInDark,One should wear neon clothes and helmet while cycling in the dark
+5,0,What are the checkpoints things to be kept in mind while driving a two wheeler,Driving2Wheeler,One should wear a helmet and keep a check on speed
+6,0,What are the things to keep in mind while driving a four wheeler,Driving4Wheeler,"One should wear a seat belt, drive in the correct lane and keep a check on speed"
+7,0,what does overloading a vehicle result in,Overloading,the vehicle could skid in an accident
+8,0,What is your duty on seeing an accident on road,AccidentDuty,to stop and give instant help
+8,1,what are the steps to handle an accident victim on a road,HandelVictim,give a cursory look in 10 seconds from head to toe to assess the severity of trauma
+8,2,Is there any sequence you would like to follow,SequenceHandleVictim,at this time I will need persons from the crowd so I would ask them not to overcrowd but those who are willing should stay and help me call an ambulance on 108
+8,3,What would be the next move ?,HandleVictim2,"To get him in straight lying down position with the help of others and tap the shoulders asking, Are you OK and if there is no response we will shift to the pavement with the help of 3 persons"
+8,4,What would the three persons do ?,3PersonHandleVictim,"One would stand at the head end to support the head and shoulders , the second to support the chest and back and the third to support legs."
+9,0,Why is precaution necessary ?,Precaution,Because there was no resposne to call so we have to rule out the serious injuries
+9,1,So what next ? I am anxious to know,Ambulance,While waiting for ambulance I would like one person to search for her or his mobile and call for the relatives
+9,2,But invariably every phone is locked so what to do ?,ICEFacility,"Every mobile these days has the facility of putting emergency numbers which are called ICE and if they are not visible , call on the last dialed number contacted by the injured"
+10,0,Can you tell me how to install ICE on mobile,InstallICE,"Yes, we advise that ICE or 3 contacts of your relatives should be visible on lockscreen which should be learnt and uploaded by going to settings as each phone has its own module"
+11,0,How can we deal with a unconscious victim,DealWithVictim,"By giving Log Roll position in which we lay the person at 90% lateral on either side with upper leg folded at 90% so as to remain steady in this position. With chest and abdomen visible, the secretions flow out easily by gravity. The tongue also comes down leaving an unobstructed airway during transportation"
+12,0,Supposing the unconscious victim has associated spinal injury. Does the line of handling change ,SpinalInjuryVictim,"Yes thats a very relevant question because if there no spine , we have to handle as if the spine is injured or else paralysis of limbs can occur"
+12,1,This is something every individual must know so please explain preventive measures of a Spinal Cord injury ,MeasuresOfSpinalInjury,Spinal cord is a bundle of nerves safely covered by the bones called Vertebrae. Due to injury the tiny fractured pieces of bones keep on damaging the spinal cord which is the nerve supply for the body starting from necck downwards 
+12,2,"So, how do we transfer such a patient ",TransferVictim,"As told earlier at least 3 persons will help in shifting . One person supports the head with both hands also lending support to shoulders, the 2nd supporting the chest and abdomen and the third supporting the limbs . Shift on a strecher and in an ambulance taking precaution to keep the head and neck stable till you hand over to a medical expert."
+12,3,Is there a simple test to find if the spinal injury has affected the injured adversely,CheckSpinalInjury,"yes , you can ask her/him to move the hand and toe fingers and if normal, all is fine "
+13,0,What should be done if the person is severly bleeding,SevereBleeding,Apply direct pressure over the bleeding and apply a bandage 
+14,0,While performing CPR how high should the legs be lifted,LegsLiftCPR,Legs should be lifted by 12 to 18 inches so that the extra oxygen from the legs also goes to the brain by gravity thus increasing survival time from 3 to 5 minutes 
+15,0,Drinking cannot be mixed with ?,DrinkingWhileDriving,Drinking cannot be mixed with driving 
+16,0,How should one drive near a hospital ,DriveNearHospital,One should drive solwly and silentyl near a hospital
+17,0,how should we react on hearing the horn of an ambulance,DriveNearAmbulance,one should make way for the ambulance to pass
+18,0,what care should one take at an unmanned railway crossing?,DriveNearRailway,"one should stop, look left and right and then cross an unmanned crossing"
+19,0,What can reckless driving cause ?,RecklessDriving,Reckless driving can cause an accident
+20,0,Tell me two roads saftey norms,RoadSafetyNorms,Do not overspeed and maintain safe distance between vehicles 
+21,0,Should we use phone while driving,PhoneWhileDriving,No we should not use the phone while driving 
+22,0,What is the punishment for breaking road rules ?,Punishment,You have to pa heavy penalty and event put in jail if you break rules 
+23,0,What does yellow traffic signal mean to you,YellowForCar,yellow traffic light means to wait - as red light is approaching soon 
+24,0,Why should one walk on right side of the road ,WhyWalkOnRight,We should walk on the right side of the road so that the approaching vehicles are in pain sight
+25,0,whom does over speeding bother,OverSpeedingProblem,It bothers yourself and others on the road too
+26,0,What if you are caught without helmet while driving ,CaughtWithoutHelmet,you have to pay a fine if you are caught without a helmet
+27,0,Should one continue to drive when tired ,DriveWhileTired,"No, one should not continue to drive while at fatigue"
+28,0,Which is more important - safety or work,SafteyWhileDriving,Reaching saftey is most important
+29,0,where should one focus while driving,FocusWhileDriving,One should focus on the road while driving
+30,0,what should one look for while crossing a road,PedestrianCrossingCheck,one should look for zebra crossings and traffic lights
+31,0,what does in case of emergency ICE mean to road users?,WhatICE,It helps getting instant contact with relatives and friends in case of emergency
+32,0,What does ICE stand for ,ICEFullForm,ICE stands for in case of emergency
+33,0,Where should one keep an emergency contact card display ICE numbers?,WhereICEContact,They should be displayed on the lockscreen of mobile phone
+34,0,What are things to remember while helping victims,RemeberWhileHelpingVictims,We should call for instant first aid transfer the seriously injured first
+35,0,what is the phone number of police ,PoliceContact,police can be called on 100
+36,0,what number would you dial to call a fire brigade,FireBrigadeContact,we have to dial number 102
+37,0,What does cpr stand for ?,CPRFullForm,cpr stand for Cardio Pulmonary Resusciatio
+38,0,What are the steps you would take to re-start the heart and lungs if they stop working ?,COLS,We should adopt Compression Only Life Support
+39,0,Can you explain COLS?,ExplainCOLS,COLS means that bystanders now only have to give 120 cardiac compressions in the center of chest over the sternum bone atleast 2 inches deep in adults
+40,0,Is there a difference in doing CPR if a paramedic or person trained in CPR is availabe at the site,TrainedCPR,"Yes, they can perform Cardiac Compression and Mouth to Mouth ventilations both and is Basic Cardiac Life Support (BCLS)"
+41,0,What is the difference when doing CPR in small babies,BabiesCPR,They have to be given Cardiac Compression of 140 time per minute
+42,0,What to do in case of open chest injury?,OpenChestInjury,cover the wound with clean cloth and apply tight bandage
+43,0,What to do incase of abdomen injury,AbdomenInjury,Do not give any food and cover the wound and shift to hospital 
+44,0,What to do in case of fracture,FractureInjury,Fix the splint such that it reaches the joint above the fracture part to ensure immobilisation
+45,0,how to handle a person with electric shock ?,ElectricShockInjury,Protect yourself by separating the person from source of shock by using insulating material which can be a folded paper also. Sart COLS as per situatuion
+46,0,How to deal a case of burn,BurnInjury,"If the burn is on hands or feet, pour water till burning sensation subsides. If fire is extensive, cover with a blanket or roll in mud to stop the fire. If electric shock at home, switch off the main switch."
+47,0,In an accident happening how will you remove a helmet,RemoveHelmetAfterAccident,Open the chinstrap first. One person sits on right or left of persons head and raises the head and neck from the floor. another person sits at the head end and gently removes the helmet keeping the head stationary. 
+48,0,Which kind of helmet should one wear,TypeOfHelmet,Always wear a helmet with ISI mark or any other latest recommended and available
+49,0,What is ISI,WhatISI,ISI is Indian Standard Institute
+50,0,what does center single continous white line on road indicate ?,SingleContinousWhiteLine,It means do not overtake 
+51,0,What are the signs of acute heart attack?,SignsOfAcuteHeartAttack,"Severe unbareable pain in chest radiating to left shoulder , neck or hand , sweating blurring of vision, nausea-giving a sense of doom which indicates a feeling never sensed before"
+52,0,How would you handle a heart attack,HandleHeartAttack,Keep tablet Isordil 5mg under the tongue (Sublingual. Also give tablet Disprin 325 or 350 mg to chew or in quarter cup of water. Shift or call for ambulance
+53,0,how would you handle a person of drowning?,HandleDrowning,"with water having entered the body , place the person on her/his stomach (prone position) and apply compression on back so that water gushes out from the body"
+54,0,What care should one take while shifting an injured victim,ShiftingInjuredVictim,You should be gentle and avoid sudden jerks while moving the victim
+55,0,How many people should lift and injured ,PeopleLiftingVictim,At least 3 people should help move a victim
+56,0,What do you understand by life safety,LifeSaftey,It means a person is in need of some help
+57,0,Do you know that maximum numbers of persons are dying in road accidents in our country,MaxDeathsRoadAccident,yes
+58,0,As a good citizen what is your duty in case of road accident,AccidentDuty,to stop and do the best possible
+59,0,have you ever helped a person either at home or elsewhere,HelpedPerson,No
+60,0,What should you do when a speeding vehicle behind you honks constantly,Tailgating,Let it over take you
+61,0,Compulsoary signs are exhibited in which shape ,CompulsoarySigns,Circular
+62,0,A circular blue sign with a red border and two red diagonals lines crossing it means what,NoStopSign,no stopping
+63,0,"If there is a traffic jam, Can the motorized vehicle two wheelers use cycle lanes to minimize traffic",TwoWheelersUseCycleLanes,Yes
+64,0,"In case of an accident, which knowledge of yours can be helpful to the injured person ?",SequentialHandling,The knowledge of sequential handling (First aid) will be to use in such a case
+65,0,"Near a pedestrian crossing, when the pedestrians are waiting to cross the road, what should be done?",PedestrianWaitingToCross,You should stop the vehicle and let the pedestrians cross the road and then proceed
+66,0,When is dipping your lights necessary ?,DippingLights,When the weather is foggy and vision is drastically reduced
+67,0,What is the colour of the number plate of a commercial vehicle ,CommercialNoPlateColor,The number plate has a white background with black letters and numbers
+68,0,If you find green light and pedestrians are crossing the road what should we do ?,PedestrianWhileGreenForCar,You should stop and wait for them to pass and only proceed when there is no one on the road.Of course warn them not to repeat the offence as they can be a victim to an accident happening.
+69,0,Which traffic light should be lit after green,TrafficLightAfterGreen,"yellow light should get lit, it indicates to us to be ready to stop"
+70,0,From which side can we overtake a vehicle,VehicleOvertakeSide,You should overtake from the right side of the vehicle
+71,0,Red traffic light indicates,RedForCar,It indicates to stop the vehicle
+72,0,"In case of an accident , to seek a ""Emergency Ambulance"", what numbers should be dialed?",AmbulanceContact,The number to be dialed is 108
+73,0,What is the validity of a learners license,LLValidity,Up to 6 months from the date of issue of learners License
+74,0,"While driving at night on city roads, should we keep our headlights on",LowBeamWhileInCity,Low beam should be preffered scince it does not blind the person coming directly facing you and thus prevents accidents
+75,0,is driving license valid throughout the country,DLNational,Yes
+76,0,When do we use handbrake,UseOfHandbrake,"We use it to park a vehicle, it helps the vehicle stay in place and not move over slopes or on force"
+77,0,What does blinking yellow traffic light mean,BlinkingYellowForCar,it indicates us to reduce speed of the vehicle and proceed safely by being vigilant
+78,0,When can we apply for a driving licence,ApplyDLAfterLL,After 30 days from the date of issue of leaarners licence but within 6 months of issue
+79,0,can three persons travel on two wheelers,3peopleOnTwoWheeler,No that is not allowed and is subjected to fine
+80,0,"While driving a vehicle , the driver should always keep which document with them",MustKeepDocWhileDriving,The driver should always have an original driving license with them
+81,0,what does yellow continous line marked at the middle of the road indicate,ContinousYellowLine,It indicates crossing yellow line is prohibited as it marks opposite moving lanes.it indicates that passing (overtaking) is not allowed
+82,0,If an ambulance is approaching from back what should be done,AmbulanceGiveWay,An ambulance is an emergency vehicle so it and it should be immediately given side to overtake
+83,0,minimum age requirement to get a commercial driving license,MinimumAgeForCDL,20 years
+84,0,"if any pedestrainis crossing the road without pedestrian crossing, what will you do",PedestrianWithoutZebraCrossing,you will stop the vehicle till the pedestrian crosses the road
+85,0,what is minimum age required to get a driving license for LMV,MinimumAgeForLMVDL,18 years
+86,0,"If we want to change our lane while driving, what should you do ",ChangeLaneWhileDriving,"Indicate by light signals called use indicators and then change the lane, when you feel safe to do so by keeping proper distance to other vehicles"
+87,0,Is it necessary to stop at red light,StopAtRedLight,it is always necessary to stop at redlight
+88,0,what is the validity of pollution under control certificate,ValidityOfPUC,It is 6 months from the date of issue
+89,0,What is validity of vehicle insurance,ValidityOfVI,1 year
+90,0,If you have learners license what will you do for learning to drive,WhatTodoIfHoldLL,"You will learn to drive with a trained driver sitting next to you, who has a valid driving license"
+91,0,to cross the road should pedestrian crossing be used,WhatUseToCrossRoad,Always use pedestrian crossing to cross the road
+92,0,What is the colour of the number plate of private vehicles ,PrivateNoPlateColor,It has white background with black letters and numbers
+93,0,What will you do while approaching main/major road,ApproachingMajorRoad,"You should stop the vehicle and look both sides of the main road, then aftr seeing a clear road you should move on to the main road"
+94,0,What are the colors of the traffic signal,TrafficSignalColor,Traffic signal is identified mainly by three colors which are red yellow and green
+95,0,what do the traffic light colours mean,TrafficSignalColorMeaning,"the red colour means we have to stop, green colour mean we can go, and yellow light means we have to slow down and be cautious of our surroundings"
+96,0,why should we hold the hand rail while getting on or off the bus,WhyHoldHandRail,It is necessary because the bus can move and this can cause the person getting on or off to get hurt.Hence holding the hand rail provides saftey
+97,0,Why is zebra crossing in black and white colour,WhyZebraCrossingBlacknWhite,Balck and white are contrasting colours and our human eyes are very sensitive to contrasting colours and thus it can be detected from slightest movements
+98,0,What amount of blood flows in a human body,BloodFlowInHumanBody,The average adult has about 4.5 to 5.5 liters of blood circulating inside their body

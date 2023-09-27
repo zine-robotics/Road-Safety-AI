@@ -1,0 +1,7 @@
+#!/Users/harshitsandilya/Projects/Road-Safety-AI/bin/python
+
+from argostranslate import cli
+
+cli.main()
+
+
