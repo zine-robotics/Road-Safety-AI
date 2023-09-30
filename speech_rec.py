@@ -1,15 +1,14 @@
 import argparse
 import queue
 import sys
+import os
 import sounddevice as sd
-
 from vosk import Model, KaldiRecognizer
 
 q = queue.Queue()
 
 
 def int_or_str(text):
-    """Helper function for argument parsing."""
     try:
         return int(text)
     except ValueError:
@@ -17,7 +16,6 @@ def int_or_str(text):
 
 
 def callback(indata, frames, time, status):
-    """This is called (from a separate thread) for each audio block."""
     if status:
         print(status, file=sys.stderr)
     q.put(bytes(indata))
@@ -73,6 +71,7 @@ def speech_rec():
             channels=1,
             callback=callback,
         ):
+            os.system("clear")
             print("#" * 80)
             rec = KaldiRecognizer(model, args.samplerate)
             while True:
