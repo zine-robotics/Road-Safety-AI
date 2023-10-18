@@ -5,8 +5,8 @@ import translate as ts
 import pickle
 import pandas as pd
 import numpy as np
-import pad_sequences 
-from tensorflow.keras.models
+from tensorflow.keras.preprocessing.sequence import pad_sequences
+from tensorflow.keras.models import Sequential, Model, load_model
 
 classes = pickle.load(open("classes.pkl", "rb"))
 tokenizer = pickle.load(open("tokenizer.pkl", "rb"))
@@ -43,11 +43,9 @@ while 1:
     print("Please choose the language \n1.hindi \n2.english\n")
     lang = int(input("Enter your choice : "))
     if lang == 1:
-        # que = ts.translate_hi_en(que)
         que = sr_hi.speech_rec()
         que = json.loads(que)
         que = que["text"]
-        # print(que)
         que = ts.translate_hi_en(que)
         print(que)
     else:
@@ -56,8 +54,7 @@ while 1:
         que = que["text"]
         print(que)
 
-    
-    maxLen=18
+    maxLen = 18
     nlu = IntentClassifier(classes, model, tokenizer, label_encoder)
     intent = nlu.get_intent(que)
 
