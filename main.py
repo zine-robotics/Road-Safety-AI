@@ -2,11 +2,32 @@ import json
 import speech_rec_hi as sr_hi
 import speech_rec_eng as sr_eng
 import translate as ts
+import retranslate as rt
 import pickle
 import pandas as pd
 import numpy as np
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 from tensorflow.keras.models import Sequential, Model, load_model
+from englisttohindi.englisttohindi import EngtoHindi
+import pyttsx3
+
+engine = pyttsx3.init()  # object creation
+# engine.setProperty("languages", "hi")
+# voices = engine.getProperty('voices')
+# for voice in voices:
+#     print(f"Voice: {voice.name}")
+
+# engine.setProperty("voice", voices[2].id)
+# voices = engine.getProperty("voices")  # getting details of current voice
+
+
+# Function to convert text to
+# speech
+def SpeakText(command):
+    # Initialize the engine
+    print(command)
+    engine.say(command)
+    engine.runAndWait()
 
 classes = pickle.load(open("classes.pkl", "rb"))
 tokenizer = pickle.load(open("tokenizer.pkl", "rb"))
@@ -36,18 +57,21 @@ answer = pd.read_csv("ZineNLP_Intent.csv")
 prev_index = 0
 
 ans = "n"
+print("Please choose the language \n1.hindi \n2.english\n")
+lang = int(input("Enter your choice : "))
+# if lang == 1:
+engine.setProperty("voice", "com.apple.speech.synthesis.voice.Kiyara")
+
 while 1:
-    ans = input("Do you want to ask one more question y/n : ")
+    ans = input("Do you want to ask a question y/n : ")
     if ans in "nN":
         break
-    print("Please choose the language \n1.hindi \n2.english\n")
-    lang = int(input("Enter your choice : "))
     if lang == 1:
         que = sr_hi.speech_rec()
         que = json.loads(que)
         que = que["text"]
-        que = ts.translate_hi_en(que)
         print(que)
+        que = ts.translate_hi_en(que)
     else:
         que = sr_eng.speech_rec()
         que = json.loads(que)
@@ -73,4 +97,9 @@ while 1:
         prev_index = ans.index.to_numpy()[0]
         ans = ans.iloc[0, 4]
 
-    print(ans)
+    # if lang == 1:
+        # ans = rt.translate_en_hi(ans)
+    ans=EngtoHindi(ans)
+    ans=ans.convert
+
+    SpeakText(ans)
